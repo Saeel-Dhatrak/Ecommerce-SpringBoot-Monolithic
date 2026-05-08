@@ -9,7 +9,7 @@
     
         public Category(Long categoryId) {
             this.categoryId = categoryId;
-        }
+        } 
     
         public Long getCategoryId() {
             return categoryId;
