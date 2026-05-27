@@ -162,3 +162,4 @@
 
 ### Product Module
 - Added the base structure of Prouct Module including Entity, repository, service, service-impl, controller.
+- Now we will create the DTO's : ProductDTO - this will contain the details and ProductResponse will contain the list of products which will be represented with the help of ProductDTO
