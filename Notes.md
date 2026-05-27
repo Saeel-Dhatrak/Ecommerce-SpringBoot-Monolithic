@@ -159,3 +159,6 @@
 - @RestConrollerAdvice is the specialized version of the @ControllerAdvice and if you are making use of REST Api's then you should make use of @RestConrollerAdvice
 - When we add the @RestConrollerAdvice annotation to any class then this will intercept any exception thrown by any class in the application
 - @ExceptionHandler can be used to define methods to handle specific type of exceptions
+
+### Product Module
+- Added the base structure of Prouct Module including Entity, repository, service, service-impl, controller.
