@@ -12,8 +12,8 @@ import lombok.NoArgsConstructor;
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-    private String name;
+    private Long productId;
+    private String productName;
     private String image;
     private String description;
     private Integer quantity;
