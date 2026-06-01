@@ -162,4 +162,5 @@
 
 ### Product Module
 - Added the base structure of Prouct Module including Entity, repository, service, service-impl, controller.
-- Now we will create the DTO's : ProductDTO - this will contain the details and ProductResponse will contain the list of products which will be represented with the help of ProductDTO
+- Now we will create the DTO's : ProductDTO - this will contain the details and ProductResponse will contain the list of products which will be represented with the help of ProductDTO`
+- We have added a new method in the repository which will work as "select * from product where categoryId=$id;". And do not have to procide the implementation for it. Jpa will do the implementation for us.
